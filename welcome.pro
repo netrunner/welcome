@@ -23,6 +23,7 @@ TRANSLATIONS  += translateFile.ts \
               translations/translatefilets_nl_NL.ts \
               translations/translatefilets_es.ts \
               translations/translatefilets_es_AR.ts \
-              translations/translatefilets_fr.ts
+              translations/translatefilets_fr.ts \
+              translations/translatefilets_it.ts
               
 
