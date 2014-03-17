@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013        Anke Boersma <demm@kaosx.us>
+ * Copyright (c) 2013-2014       Anke Boersma <demm@kaosx.us>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -8,66 +8,68 @@
  *
  */
 
-#include <QtGui> 
-#include "welcome.h"
+#include <QtGui>
+#include <QMessageBox>
 #include <QProcess>
- 
-// if we include <QtGui> there is no need to include every class used: <QString>, <QFileDialog>,...
- 
-welcome::welcome(QWidget *parent)
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
 {
-    setupUi(this); // this sets up GUI
-    
+    ui->setupUi(this);
+
     Qt::WindowFlags flags;
     flags = Qt::Window
             | Qt::WindowMinimizeButtonHint
             | Qt::WindowCloseButtonHint;
-	    setFixedSize(550,400);
+        setFixedSize(550,400);
     setWindowFlags( flags );
- 
+
     // signals/slots mechanism in action
-    connect( pushButton_install, SIGNAL( clicked() ), this, SLOT( InstallKaOS() ) ); 
-    connect( pushButton_passw, SIGNAL( clicked() ), this, SLOT( Passwords() ) ); 
-    connect( pushButton_about, SIGNAL( clicked() ), this, SLOT( About() ) ); 
-    connect( pushButton_package, SIGNAL( clicked() ), this, SLOT( PackageList() ) ); 
-    connect( pushButton_guide, SIGNAL( clicked() ), this, SLOT( Guide() ) ); 
-    connect( pushButton_forum, SIGNAL( clicked() ), this, SLOT( Forum() ) ); 
+    this->connect(this->ui->pushButton_install, SIGNAL(clicked()), this, SLOT(InstallKaOS()));
+    this->connect(this->ui->pushButton_passw, SIGNAL(clicked()), this, SLOT(Passwords()));
+    this->connect(this->ui->pushButton_about, SIGNAL(clicked()), this, SLOT(About()));
+    this->connect(this->ui->pushButton_package, SIGNAL(clicked()), this, SLOT(PackageList()));
+    this->connect(this->ui->pushButton_guide, SIGNAL(clicked()), this, SLOT(Guide()));
+    this->connect(this->ui->pushButton_forum, SIGNAL(clicked()), this, SLOT(Forum()));
 }
- 
- 
-void welcome::InstallKaOS() 
+
+
+void MainWindow::InstallKaOS()
 {
     QProcess::startDetached("/usr/bin/launch-installer.sh");
 }
- 
- 
-void welcome::Passwords() 
+
+
+void MainWindow::Passwords()
 {
     QMessageBox::about(this,"Passwords",
                 "Correct passwords for use in the live session:\n"
                 "root: root / root\n"
-		"user: live / live\n"
+        "user: live / live\n"
                 "Hope you enjoy :)\n");
 }
- 
- 
-void welcome::About() 
+
+
+void MainWindow::About()
 {
     QDesktopServices::openUrl(QUrl("file:///home/live/Desktop/info/about.pdf"));
 }
- 
- 
-void welcome::PackageList() 
+
+
+void MainWindow::PackageList()
 {
     QProcess::startDetached("/home/live/Desktop/info/packages.sh");
 }
 
-void welcome::Guide() 
+void MainWindow::Guide()
 {
     QDesktopServices::openUrl(QUrl("file:///home/live/Desktop/info/guide.pdf"));
 }
 
-void welcome::Forum() 
+void MainWindow::Forum()
 {
     QDesktopServices::openUrl(QUrl("http://kaosx.us/phpBB3"));
 }

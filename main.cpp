@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2013 Anke Boersma <demm@kaosx.us>       *                 
+ *   Copyright (C) 2013 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -17,14 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.          *
  ***************************************************************************/
 #include <QApplication>
- 
-#include "welcome.h"
- 
+
+#include "mainwindow.h"
+
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
-    welcome *dialog = new welcome;
- 
-    dialog->show();
-    return app.exec();
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+
+    return a.exec();
 }
+
