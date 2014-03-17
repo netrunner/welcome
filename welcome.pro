@@ -19,6 +19,8 @@ HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
 
+RESOURCES += resources.qrc
+
 TRANSLATIONS  += translateFile.ts \
               translations/translatefilets_nl_NL.ts \
               translations/translatefilets_es.ts \
@@ -34,8 +36,6 @@ desktop.path = /usr/share/applications
 desktop.files += welcome.desktop
 icon.files += welcome.png
 icon.path += /usr/share/pixmaps
-qm.files = translations/*.qm
-qm.path = /usr/share/welcome/translations
-INSTALLS += target desktop icon qm
+INSTALLS += target desktop icon 
               
 
