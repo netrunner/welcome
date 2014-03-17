@@ -1,9 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>resources/translations/octopi_fr.qm</file>
-        <file>resources/translations/octopi_es.qm</file>
-        <file>resources/translations/octopi_it.qm</file>
-        <file>resources/translations/octopi_nl.qm</file>
-        <file>resources/translations/octopi_es_AR.qm</file>
+        <file>translations/translatefilets_fr.qm</file>
+        <file>translations/translatefilets_es.qm</file>
+        <file>translations/translatefilets_it.qm</file>
+        <file>translations/translatefilets_nl_NL.qm</file>
+        <file>translations/translatefilets_es_AR.qm</file>
     </qresource>
 </RCC>
