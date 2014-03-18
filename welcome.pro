@@ -24,7 +24,8 @@ TRANSLATIONS  += translateFile.ts \
               translations/translatefilets_es.ts \
               translations/translatefilets_es_AR.ts \
               translations/translatefilets_fr.ts \
-              translations/translatefilets_it.ts
+              translations/translatefilets_it.ts \
+              translations/translatefilets_pt_BR.ts
               
 # install
 target.path = /usr/bin
@@ -34,8 +35,6 @@ desktop.path = /usr/share/applications
 desktop.files += welcome.desktop
 icon.files += welcome.png
 icon.path += /usr/share/pixmaps
-qm.files = translations/*.qm
-qm.path = /usr/share/welcome/translations
-INSTALLS += target desktop icon qm
+INSTALLS += target desktop icon 
               
 
