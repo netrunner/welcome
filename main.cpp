@@ -25,14 +25,14 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     
     QTranslator appTranslator;
-    appTranslator.load(":/translations/welcome_" +
+    appTranslator.load(":/translations/translatefilets_" +
                      QLocale::system().name());
     a.installTranslator(&appTranslator);
   
     MainWindow w;
     w.show();
     
-    QResource::registerResource("./resources.qrc");
+    QResource::registerResource("resources.qrc");
 
     return a.exec();
 }
