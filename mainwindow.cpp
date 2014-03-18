@@ -48,7 +48,7 @@ void MainWindow::Passwords()
     QMessageBox::about(this,"Passwords",
                 "Correct passwords for use in the live session:\n"
                 "root: root / root\n"
-        "user: live / live\n"
+                "user: live / live\n"
                 "Hope you enjoy :)\n");
 }
 
