@@ -17,12 +17,18 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.          *
  ***************************************************************************/
 #include <QApplication>
-
+#include <QtGui>
 #include "mainwindow.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    
+    QTranslator appTranslator;
+    appTranslator.load(":/translations/welcome_" +
+                     QLocale::system().name());
+    a.installTranslator(&appTranslator);
+  
     MainWindow w;
     w.show();
 
