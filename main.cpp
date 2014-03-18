@@ -31,6 +31,8 @@ int main(int argc, char *argv[])
   
     MainWindow w;
     w.show();
+    
+    QResource::registerResource("./resources.qrc");
 
     return a.exec();
 }
