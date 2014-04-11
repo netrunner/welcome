@@ -28,7 +28,9 @@ TRANSLATIONS  += translateFile.ts \
               translations/translatefilets_fr.ts \
               translations/translatefilets_it.ts \
               translations/translatefilets_pt_BR.ts \
-              translations/translatefilets_tr_TR.ts
+              translations/translatefilets_tr_TR.ts \
+              translations/translatefilets_de.ts \
+              translations/translatefilets_ru.ts \
               
 # install
 target.path = /usr/bin

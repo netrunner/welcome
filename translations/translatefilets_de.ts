@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<TS version="2.1" language="de">
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Welcome to KaOS</source>
-        <translation>KaOS&apos;a Hoşgeldin</translation>
+        <translation>Willkommen in KaOS</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="100"/>
         <source>Install KaOS</source>
-        <translation>KaOS&apos;u Kur</translation>
+        <translation>KaOS installieren</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="186"/>
         <source>Passwords</source>
-        <translation>Parolalar</translation>
+        <translation>Passwörter</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="269"/>
         <source>About</source>
-        <translation>Hakkında</translation>
+        <translation>Über KaOS</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="352"/>
         <source>Guide</source>
-        <translation>Kılavuz</translation>
+        <translation>Anleitung</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
         <source>Package List</source>
-        <translation>Paket Listesi</translation>
+        <translation>Packetliste</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="518"/>
@@ -51,9 +51,9 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;KaOS&apos;u kullandığınız için teşekkürler. Parolaları yada paket llistesini mi bilmek istiyorsun?  Proje hakkında daha fazla bilgi mi edinmek istiyorsun?  Bağlantıları aşağıda bulabilirsin.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Dankeschön, dass du KaOS versuchst. Die Passwörter für diesen Live Modus, die Packetliste sowie einige andere Infos findest du hier: &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Forumda KAOS hakkında görüşlerinizi yazmak için tereddüt etmeyin.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Du bist herzlich eingeladen, deine Meinung über KaOS in unserem Forum kundzutun.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>

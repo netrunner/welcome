@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<TS version="2.1" language="ru">
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Welcome to KaOS</source>
-        <translation>KaOS&apos;a Hoşgeldin</translation>
+        <translation>Добро пожаловать в KaOS</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="100"/>
         <source>Install KaOS</source>
-        <translation>KaOS&apos;u Kur</translation>
+        <translation>Установка KaOS</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="186"/>
         <source>Passwords</source>
-        <translation>Parolalar</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="269"/>
         <source>About</source>
-        <translation>Hakkında</translation>
+        <translation>О программе</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="352"/>
         <source>Guide</source>
-        <translation>Kılavuz</translation>
+        <translation>Руководство</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
         <source>Package List</source>
-        <translation>Paket Listesi</translation>
+        <translation>Список пакетов</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="518"/>
         <source>Forum</source>
-        <translation>Forum</translation>
+        <translation>Форум</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="531"/>
@@ -51,9 +51,10 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;KaOS&apos;u kullandığınız için teşekkürler. Parolaları yada paket llistesini mi bilmek istiyorsun?  Proje hakkında daha fazla bilgi mi edinmek istiyorsun?  Bağlantıları aşağıda bulabilirsin.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Спасибо за внимание к KaOS. Нуждаетесь в файле пароля или списке пакета? Хотите узнать больше о проекте? Пройдите по ссылкам ниже.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Forumda KAOS hakkında görüşlerinizi yazmak için tereddüt etmeyin.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:12pt;&quot;&gt;Не стесняйтесь высказать свое
+мнение о KaOS на форуме.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
