@@ -9,6 +9,7 @@
 	<file>translations/translatefilets_tr_TR.qm</file>
 	<file>translations/translatefilets_de.qm</file>
 	<file>translations/translatefilets_ru.qm</file>
+	<file>translations/translatefilets_nl_BE.qm</file>
     </qresource>
 </RCC>
 
