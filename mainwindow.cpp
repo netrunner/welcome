@@ -39,7 +39,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 void MainWindow::InstallKaOS()
 {
-    QProcess::startDetached("/usr/bin/launch-installer.sh");
+    QProcess::startDetached("/usr/share/applications/thus.desktop");
 }
 
 
