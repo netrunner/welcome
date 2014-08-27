@@ -39,7 +39,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 void MainWindow::InstallKaOS()
 {
-    QProcess::startDetached("/usr/bin/launch-thus.sh");
+    QProcess::startDetached("/usr/bin/launch-calamares.sh");
 }
 
 
