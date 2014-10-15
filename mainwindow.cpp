@@ -11,6 +11,7 @@
 #include <QtGui>
 #include <QMessageBox>
 #include <QProcess>
+#include <QDesktopWidget>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
@@ -19,6 +20,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QRect position = frameGeometry();
+      position.moveCenter(QDesktopWidget().availableGeometry().center());
+      move(position.topLeft());
 
     Qt::WindowFlags flags;
     flags = Qt::Window
