@@ -32,7 +32,9 @@ TRANSLATIONS  += translateFile.ts \
               translations/translatefilets_de.ts \
               translations/translatefilets_ru.ts \
               translations/translatefilets_nl_BE.ts \
-              translations/translatefilets_ca.ts 
+              translations/translatefilets_ca.ts \
+              translations/translatefilets_cs.ts \
+              translations/translatefilets_hr_HR.ts
               
 # install
 target.path = /usr/bin

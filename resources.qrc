@@ -11,6 +11,8 @@
 	<file>translations/translatefilets_ru.qm</file>
 	<file>translations/translatefilets_nl_BE.qm</file>
 	<file>translations/translatefilets_ca.qm</file>
+        <file>translations/translatefilets_cs.qm</file>
+        <file>translations/translatefilets_hr_HR.qm</file>
     </qresource>
 </RCC>
 
