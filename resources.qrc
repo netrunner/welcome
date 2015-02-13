@@ -13,6 +13,7 @@
 	<file>translations/translatefilets_ca.qm</file>
         <file>translations/translatefilets_cs.qm</file>
         <file>translations/translatefilets_hr_HR.qm</file>
+        <file>translations/translatefilets_hu.qm</file>
     </qresource>
 </RCC>
 
