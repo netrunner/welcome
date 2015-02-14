@@ -22,20 +22,20 @@ FORMS    += mainwindow.ui
 RESOURCES += resources.qrc
 
 TRANSLATIONS  += translateFile.ts \
-              translations/translatefilets_nl_NL.ts \
-              translations/translatefilets_es.ts \
-              translations/translatefilets_es_AR.ts \
-              translations/translatefilets_fr.ts \
-              translations/translatefilets_it.ts \
-              translations/translatefilets_pt_BR.ts \
-              translations/translatefilets_tr_TR.ts \
-              translations/translatefilets_de.ts \
-              translations/translatefilets_ru.ts \
-              translations/translatefilets_nl_BE.ts \
-              translations/translatefilets_ca.ts \
-              translations/translatefilets_cs.ts \
-              translations/translatefilets_hr_HR.ts \
-              translations/translatefilets_hu.ts \
+              translations/translateFile_nl_NL.ts \
+              translations/translateFile_es.ts \
+              translations/translateFile_es_AR.ts \
+              translations/translateFile_fr.ts \
+              translations/translateFile_it.ts \
+              translations/translateFile_pt_BR.ts \
+              translations/translateFile_tr_TR.ts \
+              translations/translateFile_de.ts \
+              translations/translateFile_ru.ts \
+              translations/translateFile_nl_BE.ts \
+              translations/translateFile_ca.ts \
+              translations/translateFile_cs.ts \
+              translations/translateFile_hr_HR.ts \
+              translations/translateFile_hu.ts \
               
 # install
 target.path = /usr/bin
