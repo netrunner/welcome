@@ -4,37 +4,37 @@
     <message>
         <location filename="mainwindow.ui" line="14"/>
         <source>Welcome to KaOS</source>
-        <translation type="unfinished"/>
+        <translation>مرحبًا بك في KaOS</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="100"/>
         <source>Install KaOS</source>
-        <translation type="unfinished"/>
+        <translation>ثبّت KaOS</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="186"/>
         <source>Passwords</source>
-        <translation type="unfinished"/>
+        <translation>كلمات المرور</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="269"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>عن</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="352"/>
         <source>Guide</source>
-        <translation type="unfinished"/>
+        <translation>الدّليل</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="435"/>
         <source>Package List</source>
-        <translation type="unfinished"/>
+        <translation>قائمة الحزم</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="518"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>المنتدى</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="531"/>
