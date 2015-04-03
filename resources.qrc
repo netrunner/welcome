@@ -14,6 +14,7 @@
         <file>translations/translateFile_cs.qm</file>
         <file>translations/translateFile_hr_HR.qm</file>
         <file>translations/translateFile_hu.qm</file>
+        <file>translations/translateFile_he.qm</file>
     </qresource>
 </RCC>
 
