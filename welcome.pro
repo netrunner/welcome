@@ -37,6 +37,9 @@ TRANSLATIONS  += translateFile.ts \
               translations/translateFile_hr_HR.ts \
               translations/translateFile_hu.ts \
               translations/translateFile_he.ts \
+              translations/translateFile_sr_RS@latin.ts \
+              translations/translateFile_sr_RS.ts \
+              translations/translateFile_id_ID.ts \
               
 # install
 target.path = /usr/bin
