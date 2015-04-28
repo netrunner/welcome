@@ -1,0 +1,18 @@
+Source: welcome
+Section: kde
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 8.0.0), cdbs, cmake,
+ extra-cmake-modules,
+ pkg-kde-tools,
+ qt4-qmake,
+ libqt4-dev-bin,
+ libqt4-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/netrunner/welcome
+
+Package: welcome
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Welcome screen
+ A welcome application showing a short introduction to the system
